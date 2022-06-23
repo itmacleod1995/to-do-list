@@ -6,6 +6,7 @@
 
 .title {
     text-align: center;
+    margin-top: 20px;
 }
 
 .container {
@@ -15,6 +16,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 15px;
 }
 
 .container input {
