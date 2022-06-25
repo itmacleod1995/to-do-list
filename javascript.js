@@ -16,4 +16,8 @@ addButton.addEventListener("click", function () {
     clear();
 });
 
+outputs.addEventListener("click", function () {
+    outputs.style.cssText = "text-decoration: line-through";
+});
+
 
