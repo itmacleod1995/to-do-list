@@ -9,14 +9,15 @@ const clearTasks = document.querySelector(".reset");
 
 addButton.addEventListener("click", function () {
     const newTask = document.createElement("p");
-    newTask.style.cssText = "font-size: 20px; margin-bottom: 20px;";
     newTask.textContent = task.value;
+    newTask.classList.add(".task-style");
     outputs.appendChild(newTask);
-    clear();
 });
 
 outputs.addEventListener("click", function () {
+
     outputs.style.cssText = "text-decoration: line-through";
+
 });
 
 
