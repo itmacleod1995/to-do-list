@@ -36,3 +36,7 @@
     margin-bottom: 20px;
     cursor: pointer;
 }
+
+.completed-task {
+    text-decoration: line-through;
+}

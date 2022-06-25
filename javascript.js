@@ -12,12 +12,14 @@ addButton.addEventListener("click", function () {
     newTask.textContent = task.value;
     newTask.classList.add(".task-style");
     outputs.appendChild(newTask);
-});
 
-outputs.addEventListener("click", function () {
+    newTask.addEventListener("click", function () {
+        newTask.style.cssText = "text-decoration: line-through;";
+    });
 
-    outputs.style.cssText = "text-decoration: line-through";
-
+    newTask.addEventListener("dblclick", function () {
+        newTask.style.cssText = "text-decoration: none;";
+    });
 });
 
 
